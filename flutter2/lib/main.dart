@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'hello.dart';
 
 void main() => runApp(new MyApp());
 
@@ -23,36 +24,9 @@ class MyApp extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    new Container(
-                      padding: const EdgeInsets.all(4.0),
-                      child: new Column(
-                        children: <Widget>[
-                          new Text('Hello'),
-                          new Text('World'),
-                          new Text('!!!'),
-                        ],
-                      ),
-                    ),
-                    new Container(
-                      padding: const EdgeInsets.all(4.0),
-                      child: new Column(
-                        children: <Widget>[
-                          new Text('Hello'),
-                          new Text('World'),
-                          new Text('!!!'),
-                        ],
-                      ),
-                    ),
-                    new Container(
-                      padding: const EdgeInsets.all(4.0),
-                      child: new Column(
-                        children: <Widget>[
-                          new Text('Hello'),
-                          new Text('World'),
-                          new Text('!!!'),
-                        ],
-                      ),
-                    ),
+                    new Hello(),
+                    new Hello(),
+                    new Hello(),
                   ],
                 )
               ],
