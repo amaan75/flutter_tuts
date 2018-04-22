@@ -1,6 +1,6 @@
 # login_demo
 
-A new Flutter project.
+Please dont handle screens in the way we have done in this tutorial, use routers instead.
 
 ## Getting Started
 
