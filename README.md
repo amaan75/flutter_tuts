@@ -6,4 +6,5 @@
 4. [Flutter App Bar](https://github.com/amaan75/flutter_tuts/tree/master/flutter_app_bar)
 5. [Login Demo](https://github.com/amaan75/flutter_tuts/tree/master/login_demo)
 5. [Router Demo](https://github.com/amaan75/flutter_tuts/tree/master/router_demo)
-5. [Snackbar Demo](https://github.com/amaan75/flutter_tuts/tree/master/snackbar_demo)
+6. [Snackbar Demo](https://github.com/amaan75/flutter_tuts/tree/master/snackbar_demo)
+7. [Alert Dialog Demo](https://github.com/amaan75/flutter_tuts/tree/master/alert_dialog_demo)
