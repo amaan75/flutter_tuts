@@ -18,7 +18,7 @@ class Third extends StatelessWidget {
                   onPressed: () => Navigator.of(context).pop()),
               new RaisedButton(
                   child: new Text('Home'),
-                  onPressed: () => Navigator.of(context).pushAndRemoveUntil(
+                  onPressed: () => Navigator.of(context).pushNamedAndRemoveUntil(
                      '/Home', (Route<dynamic> route) => false)),
             ],
           ),
