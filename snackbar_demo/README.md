@@ -1,8 +1,9 @@
 # snackbar_demo
 
 A new Flutter project. a tutorial for checking out the flutter snackbars.
-This didnt work so we are using global key.```Scaffold.of(context).showSnackBar(snackBar);```
-Kinda sorta a way to get the scaffold state when the context fails to do so.
+This\
+```Scaffold.of(context).showSnackBar(snackBar);```
+didnt work so we are using global key.Kinda sorta a way to get the scaffold state when the context fails to do so.
 
 
 ## Getting Started
