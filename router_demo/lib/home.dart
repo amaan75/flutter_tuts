@@ -14,7 +14,8 @@ class Home extends StatelessWidget {
             children: <Widget>[
               new Text('This is Home Screen'),
               new RaisedButton(
-                  onPressed: () => Navigator.of(context).pushNamed('/second'))
+                  child: new Text('Next'),
+                  onPressed: () => Navigator.of(context).pushNamed('/Second'))
             ],
           ),
         ),
