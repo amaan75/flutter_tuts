@@ -1,6 +1,5 @@
-# flutter2
-
-A new Flutter project.
+# Flutter Component Organisation
+A new Flutter project. A project that teaches how to use the components present in other files.
 
 ## Getting Started
 
