@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+//import 'second.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(new MaterialApp(
+      // routes: <String, WidgetBuilder>{
+      //       '/Second': (BuildContext context) => new Second(),
+      //     }, NOT NEEDED BUT THIS IS HOW YOU ROUTE
+      home: MyApp(),
+    ));
 
 class MyApp extends StatefulWidget {
   MyAppState createState() => new MyAppState();
@@ -33,27 +39,27 @@ class MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      routes: <String, WidgetBuilder>{
-        '/Home': (BuildContext context) => new MyApp(),
-      },
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Alert dialog demo'),
-        ),
-        body: new Container(
-          child: new Center(
-            child: new Column(
-              children: <Widget>[
-                new TextField(
-                  onChanged: (value) => _onChange(value),
-                ),
-                new RaisedButton(
-                  onPressed: () => _showAlert(_text),
-                  child: new Text('Show Alert Dialog'),
-                )
-              ],
-            ),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('Alert dialog demo'),
+      ),
+      body: new Container(
+        child: new Center(
+          child: new Column(
+            children: <Widget>[
+              new TextField(
+                onChanged: (value) => _onChange(value),
+              ),
+              new RaisedButton(
+                onPressed: () => _showAlert(_text),
+                child: new Text('Show Alert Dialog'),
+              ),
+              new RaisedButton(
+                onPressed: () =>
+                    null, // Navigator.of(context).pushNamed('/Second'), if routing needed
+                child: new Text('Next page'),
+              ),
+            ],
           ),
         ),
       ),
