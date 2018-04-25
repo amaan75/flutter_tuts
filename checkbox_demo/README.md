@@ -1,6 +1,6 @@
-# checkbox_demo
+# Checkbox and List Tiles demo
 
-A new Flutter project.
+A new Flutter project. Trying out flutters checkbox and list Tiles.
 
 ## Getting Started
 
