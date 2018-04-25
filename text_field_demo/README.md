@@ -1,6 +1,8 @@
 # text_field_demo
 
-A new Flutter project.
+A new Flutter project. A project to demonstrate the textField widget in flutter. Shows the way to get text from field by using:
+1.setState and onChanged for the TextField
+2.TextEditting controller and controller(TF param), grab by taking controller.text
 
 ## Getting Started
 

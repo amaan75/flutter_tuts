@@ -8,3 +8,4 @@
 5. [Router Demo](https://github.com/amaan75/flutter_tuts/tree/master/router_demo)
 6. [Snackbar Demo](https://github.com/amaan75/flutter_tuts/tree/master/snackbar_demo)
 7. [Alert Dialog Demo](https://github.com/amaan75/flutter_tuts/tree/master/alert_dialog_demo)
+7. [Text Field Demo](https://github.com/amaan75/flutter_tuts/tree/master/text_field_demo)
