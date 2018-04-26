@@ -1,6 +1,6 @@
-# radio_button_demo
+# Radio Button Demo
 
-A new Flutter project.
+A new Flutter project.A project to figure out how to buttons work in flutter.
 
 ## Getting Started
 
