@@ -1,6 +1,6 @@
-# slider_demo
+# Slider Button Demo
 
-A new Flutter project.
+Lets see how these Sliders buttons and SliderButtonTiles work. wwwwoooooooooosh.
 
 ## Getting Started
 
