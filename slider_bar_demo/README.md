@@ -1,7 +1,7 @@
 # Slider Bar Demo
 
 Lets see how these Sliders bars and progression bars work. wwwwoooooooooosh.
-Click [here](https://github.com/amaan75/flutter_tuts/tree/master/slider_bar_demo/lib) to get to code
+Click [here](https://github.com/amaan75/flutter_tuts/tree/master/slider_bar_demo/lib/main.dart) to get to code
 
 ## Getting Started
 
