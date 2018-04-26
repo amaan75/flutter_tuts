@@ -12,3 +12,4 @@
 8. [Alert Dialog Demo](https://github.com/amaan75/flutter_tuts/tree/master/alert_dialog_demo)
 9. [Text Field Demo](https://github.com/amaan75/flutter_tuts/tree/master/text_field_demo)
 10. [Check Box Demo](https://github.com/amaan75/flutter_tuts/tree/master/checkbox_demo)
+10. [Radio Button Demo](https://github.com/amaan75/flutter_tuts/tree/master/radio_button_demo)
