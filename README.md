@@ -16,4 +16,5 @@
 12. [Switch Demo](https://github.com/amaan75/flutter_tuts/tree/master/slider_demo)
 13. [Slider Bar Demo](https://github.com/amaan75/flutter_tuts/tree/master/slider_bar_demo)
 14. [DropDown Button Demo](https://github.com/amaan75/flutter_tuts/tree/master/dropdown_button_demo)
-14. [ListView Demo](https://github.com/amaan75/flutter_tuts/tree/master/listview_demo)
+15. [ListView Demo](https://github.com/amaan75/flutter_tuts/tree/master/listview_demo)
+16. [Drawer Demo](https://github.com/amaan75/flutter_tuts/tree/master/drawer_demo)
