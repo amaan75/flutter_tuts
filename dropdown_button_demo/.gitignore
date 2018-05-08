@@ -1,4 +1,5 @@
 .DS_Store
+<<<<<<< HEAD
 .atom/
 .dart_tool/
 .idea
@@ -8,4 +9,13 @@
 build/
 ios/.generated/
 packages
+=======
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
 .flutter-plugins

@@ -12,6 +12,11 @@ build/
 GeneratedPluginRegistrant.h
 GeneratedPluginRegistrant.m
 
+<<<<<<< HEAD
+=======
+.generated/
+
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
 *.pbxuser
 *.mode1v3
 *.mode2v3

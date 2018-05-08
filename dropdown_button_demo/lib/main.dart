@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -54,10 +55,31 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
+=======
+void main() => runApp(new MaterialApp(
+      home: new MyApp(),
+    ));
+
+class MyApp extends StatefulWidget {
+  @override
+  _State createState() => new _State();
+}
+
+class _State extends State<MyApp> {
+  String _value;
+  List<String> _values = new List<String>();
+
+  @override
+  void initState() {
+    super.initState();
+    _values.addAll(['Amaan', 'Ashu', 'Sanjay', 'Ibrahim']);
+    _value = _values[0];
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
   }
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -95,15 +117,37 @@ class _MyHomePageState extends State<MyHomePage> {
             new Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
+=======
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('DropDown button'),
+      ),
+      body: new Container(
+        padding: const EdgeInsets.all(32.0),
+        child: new Column(
+          children: <Widget>[
+            new DropdownButton(
+              onChanged: (String value) => setState(() => _value = value),
+              items: _values
+                  .map((element) => new DropdownMenuItem(
+                        child: new Text(element),
+                        value: element,
+                      ))
+                  .toList(),
+              value: _value,
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
             ),
           ],
         ),
       ),
+<<<<<<< HEAD
       floatingActionButton: new FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: new Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
     );
   }
 }

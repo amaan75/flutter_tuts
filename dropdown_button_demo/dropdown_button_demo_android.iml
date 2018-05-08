@@ -3,6 +3,10 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
+<<<<<<< HEAD
+=======
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+>>>>>>> 3089cad78f21d1e30ec35f36a987f8eb95620214
         <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/android/gen" />
         <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/android/gen" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/android/AndroidManifest.xml" />
