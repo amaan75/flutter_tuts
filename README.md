@@ -18,3 +18,4 @@
 14. [DropDown Button Demo](https://github.com/amaan75/flutter_tuts/tree/master/dropdown_button_demo)
 15. [ListView Demo](https://github.com/amaan75/flutter_tuts/tree/master/listview_demo)
 16. [Drawer Demo](https://github.com/amaan75/flutter_tuts/tree/master/drawer_demo)
+17. [Floating Action Button Demo](https://github.com/amaan75/flutter_tuts/tree/master/floating_action_button_demo)
