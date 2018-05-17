@@ -38,9 +38,7 @@ a more explainatory way of implementing what i did on onChanged.
           child: new Column(
             children: <Widget>[
               new TextField(
-                onChanged: (value) => setState(
-                    () => _text = value), // (value) => _onChanged(value)
-                controller: _controller,
+                
                 maxLines: 3,
                 autocorrect: false,
                 decoration: new InputDecoration(
